@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<form method="POST" style="text-align: center; ">
+    {% csrf_token %}
+    <strong> are you sure to delete this id ?</strong>
+    <br>
+    <input type="submit">
+</form>
+
+
+
+{% endblock %}
+
+
+
+
+
